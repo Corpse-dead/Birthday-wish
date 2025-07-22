@@ -1,6 +1,69 @@
-# 🎵 Janam Janam Music Setup & Deployment Guide
+# 🚀 Dual Platform Deployment Guide
 
-## 🎶 Music Setup Instructions
+## � Deploy to Both GitHub Pages & Vercel
+
+This project is configured to work seamlessly with both GitHub Pages and Vercel hosting platforms.
+
+## 🎯 Quick Deploy Commands
+
+### Deploy to Vercel
+```bash
+npm run deploy:vercel
+```
+
+### Deploy to GitHub Pages  
+```bash
+npm run deploy:github
+```
+
+### Build for Specific Platform
+```bash
+# Build for GitHub Pages
+npm run build:github
+
+# Build for Vercel (default)
+npm run build
+```
+
+## 🌐 GitHub Pages Setup
+
+### Automatic Deployment (Recommended)
+1. **Push to GitHub** - The project includes GitHub Actions workflow
+2. **Enable GitHub Pages** in your repository settings:
+   - Go to: Repository → Settings → Pages
+   - Source: "GitHub Actions"
+   - The workflow will auto-deploy on every push to `main`
+
+### Manual Deployment
+```bash
+# Build and deploy manually
+npm run deploy:github
+```
+
+### Your GitHub Pages URL will be:
+```
+https://corpse-dead.github.io/Birthday-wish/
+```
+
+## 🚀 Vercel Setup
+
+### Automatic Deployment
+1. **Connect Repository** to Vercel
+2. **Auto-deploys** on every push to main branch
+3. Uses the existing `vercel.json` configuration
+
+### Manual Deployment
+```bash
+# Deploy to Vercel manually
+npm run deploy:vercel
+```
+
+### Your Vercel URL:
+```
+https://birthday-wish-henna.vercel.app
+```
+
+## � Music Setup Instructions
 
 ### Step 1: Add the MP3 File
 1. Take your music file: `WhatsApp Audio 2025-07-21 at 16.18.25_a326ffb4`
