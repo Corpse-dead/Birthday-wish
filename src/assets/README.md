@@ -28,7 +28,7 @@ import romanticBg from '../assets/romantic-background.jpg'
 function MyComponent() {
   return (
     <div 
-      style={{ backgroundImage: `url(${romanticBg})` }}
+      style={{% raw %}{{ backgroundImage: `url(${romanticBg})` }}{% endraw %}}
       className="..."
     >
       <img src={heartIcon} alt="Heart" />
