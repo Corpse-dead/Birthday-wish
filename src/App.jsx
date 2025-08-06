@@ -3,7 +3,7 @@ import { motion } from 'framer-motion'
 import LoveMessage from './components/LoveMessage'
 import FloatingHearts from './components/FloatingHearts'
 import ConfettiTrigger from './components/ConfettiTrigger'
-import BackgroundMusic from './components/BackgroundMusicNew'
+import SurpriseMusic from './components/SurpriseMusic'
 import BirthdayCard from './components/BirthdayCard'
 import InteractiveDiary from './components/InteractiveDiary'
 
@@ -21,16 +21,8 @@ function App() {
 
   return (
     <div className="min-h-screen bg-gradient-to-br from-brown-light via-brown-cream to-brown-beige relative overflow-hidden">
-      {/* Background Music - Wrapped in error boundary */}
-      {/* Only render BackgroundMusic if it doesn't crash */}
-      {(() => {
-        try {
-          return <BackgroundMusic />
-        } catch (error) {
-          console.error('BackgroundMusic component error:', error)
-          return null // Gracefully fail without crashing the app
-        }
-      })()}
+      {/* Surprise Music - Clean implementation */}
+      <SurpriseMusic />
       
       {/* Confetti Effect */}
       <ConfettiTrigger />

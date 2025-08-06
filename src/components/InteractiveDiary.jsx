@@ -5,6 +5,7 @@ const InteractiveDiary = () => {
   const [currentPage, setCurrentPage] = useState(0)
 
   const diaryPages = [
+    // Original romantic pages
     {
       date: "The Day We Met",
       message: "Remember our first call? I knew you were special from the moment I heard your voice. Something in my heart whispered, 'This is her.' 💖",
@@ -34,6 +35,93 @@ const InteractiveDiary = () => {
       date: "My Heart's Truth",
       message: "Every moment with you feels like a dream I never want to wake from. You make ordinary days feel like fairy tales. 💫",
       emoji: "💝"
+    },
+    
+    // Our special memories timeline
+    {
+      date: "2 Dec 2024 - The Diary Begins",
+      message: "Iss din sab kuch start hua. Ek diary thi... aur us diary mein tu. Jaise kisi kahani ki shuruaat, jiska har word sirf tere liye tha.",
+      emoji: "💌"
+    },
+    {
+      date: "5 Dec 2024 - Butterflies Ka Ehsaas",
+      message: "Tu ignore kar rahi thi, par main feel kar raha tha butterflies. Tere silent treatment mein bhi kuch toh pyaar chhupa tha na, Tanni? 🥹",
+      emoji: "🦋"
+    },
+    {
+      date: "19 Dec 2024 - Our Confession",
+      message: "Jab humne 'I love you' feel kiya... bina bole sab keh diya. Tu meri thi us din se, aur main sirf tera.",
+      emoji: "💬"
+    },
+    {
+      date: "24 Dec 2024 - Pehla Haath Thaamne Ka Pal",
+      message: "Tere haathon ka woh pehla touch... jaise kisi sukoon ka ehsaas. Us din se duniya kuch zyada hi pyaari lagne lagi. 😭❤️",
+      emoji: "🤝"
+    },
+    {
+      date: "27 Dec 2024 - First Hug",
+      message: "Jab tu meri baahon mein aayi, laga sab kuch theek ho gaya. Tera warmth, tera perfume, sab yaad hai mujhe.",
+      emoji: "🤗"
+    },
+    {
+      date: "28 Dec 2024 - Maine Kaha 'I Love You'",
+      message: "Main pehle bola 'I love you'... aur tera reaction dekh kar laga jaise dil mein fireworks ho rahe hon. 🥺",
+      emoji: "�"
+    },
+    {
+      date: "1 Jan 2025 - First Date + Tera 'I Love You'",
+      message: "New Year, new us. Tu boli 'I love you' face to face... aur mujhe laga jaise dil overload ho gaya ho pyaar se.",
+      emoji: "🥺"
+    },
+    {
+      date: "17 Jan 2025 - Most Unexpected ILY",
+      message: "Tu achanak boli 'I love you'. Mujhe laga system crash ho gaya. Par woh moment reboot tha mere dil ka.",
+      emoji: "😳"
+    },
+    {
+      date: "18 Jan 2025 - First Cheek Kiss",
+      message: "Bangla Sahib ke paas, tere soft lips ka touch meri cheek pe... Tanni, tu toh meri jaan chura le gayi thi. 😭💖",
+      emoji: "�"
+    },
+    {
+      date: "21 Jan 2025 - Real Kiss",
+      message: "Hum class mein the, sab kuch ekdum filmy lag raha tha. Tere lips ka woh surprise wala touch... abhi tak feel karta hoon. 😳",
+      emoji: "💋"
+    },
+    {
+      date: "4 Feb 2025 - 2nd Cheek Kiss",
+      message: "Phir se woh pyara sa cheek kiss. Har baar tu karti hai aur main aur bhi deewana ban jaata hoon. 🥰",
+      emoji: "😘"
+    },
+    {
+      date: "6 Feb 2025 - Tight Hug",
+      message: "Woh hug jisme tu chhup gayi thi meri chest mein... tu har stress ka solution ban gayi uss din.",
+      emoji: "🤗"
+    },
+    {
+      date: "8 Feb 2025 - 3rd Kiss at Ice Cream",
+      message: "Ice cream thi thandi, par tera kiss tha hottest surprise. Tu always unexpected hoti hai... and I love that. �💋",
+      emoji: "�"
+    },
+    {
+      date: "11 Feb 2025 - Baby Boli Tu Pehli Baar",
+      message: "Tu boli 'baby'... aur meri spine tak goosebumps gaye. Tera har lafz mere liye poetry ban jaata hai. 🥹",
+      emoji: "💖"
+    },
+    {
+      date: "11 Feb 2025 - Tight Hug + Cheek Kiss",
+      message: "Main thoda mess up kar gaya tha cheek kiss mein, par tu has rahi thi... teri hasi mein meri sari galtiyan chup jaati hain.",
+      emoji: "🥰"
+    },
+    {
+      date: "13 Feb 2025 - 4th Kiss + Cute Fight",
+      message: "Tu boli 'I'm already missing you' while I was still with you. Aur phir woh cute wala fight. Aise hi toh cute lagti hai meri Jhalli. 😘",
+      emoji: "😚"
+    },
+    {
+      date: "18 Feb 2025 - 5th Kiss + Letters & Gifts",
+      message: "Tere haathon se mile gifts aur handwritten letters... priceless. Har word mein tera pyaar, har line mein teri yaadein. 🥺❤️",
+      emoji: "�"
     }
   ]
 
