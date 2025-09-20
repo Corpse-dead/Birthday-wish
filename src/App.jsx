@@ -6,7 +6,6 @@ import ConfettiTrigger from './components/ConfettiTrigger'
 import UnifiedAudioPlayer from './components/UnifiedAudioPlayer'
 import BirthdayCard from './components/BirthdayCard'
 import InteractiveDiary from './components/InteractiveDiary'
-import AudioDebugger from './components/AudioDebugger'
 
 function App() {
   const [showContent, setShowContent] = useState(false)
@@ -24,9 +23,6 @@ function App() {
     <div className="min-h-screen bg-gradient-to-br from-brown-light via-brown-cream to-brown-beige relative overflow-hidden">
       {/* Unified Audio Player - Reliable cross-platform audio */}
       <UnifiedAudioPlayer />
-      
-      {/* Audio Debug Info (development only) */}
-      <AudioDebugger />
       
       {/* Confetti Effect */}
       <ConfettiTrigger />
