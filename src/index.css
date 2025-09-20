@@ -105,3 +105,34 @@ body {
   background: rgba(255, 105, 180, 0.3);
   color: white;
 }
+
+/* Mobile audio optimizations */
+@media (max-width: 640px) {
+  .audio-button {
+    min-height: 44px; /* iOS touch target minimum */
+    min-width: 44px;
+  }
+  
+  .audio-text {
+    font-size: 0.875rem;
+    line-height: 1.25rem;
+  }
+}
+
+/* Ensure audio elements work on iOS */
+audio {
+  -webkit-appearance: none;
+  appearance: none;
+}
+
+/* Prevent zoom on input focus for iOS */
+@media screen and (-webkit-min-device-pixel-ratio: 0) {
+  select, textarea, input[type="text"], input[type="password"], 
+  input[type="datetime"], input[type="datetime-local"], 
+  input[type="date"], input[type="month"], input[type="time"], 
+  input[type="week"], input[type="number"], input[type="email"], 
+  input[type="url"], input[type="search"], input[type="tel"], 
+  input[type="color"] {
+    font-size: 16px;
+  }
+}

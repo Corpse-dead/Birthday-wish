@@ -3,9 +3,10 @@ import { motion } from 'framer-motion'
 import LoveMessage from './components/LoveMessage'
 import FloatingHearts from './components/FloatingHearts'
 import ConfettiTrigger from './components/ConfettiTrigger'
-import SurpriseMusic from './components/SurpriseMusic'
+import UnifiedAudioPlayer from './components/UnifiedAudioPlayer'
 import BirthdayCard from './components/BirthdayCard'
 import InteractiveDiary from './components/InteractiveDiary'
+import AudioDebugger from './components/AudioDebugger'
 
 function App() {
   const [showContent, setShowContent] = useState(false)
@@ -21,8 +22,11 @@ function App() {
 
   return (
     <div className="min-h-screen bg-gradient-to-br from-brown-light via-brown-cream to-brown-beige relative overflow-hidden">
-      {/* Surprise Music - Clean implementation */}
-      <SurpriseMusic />
+      {/* Unified Audio Player - Reliable cross-platform audio */}
+      <UnifiedAudioPlayer />
+      
+      {/* Audio Debug Info (development only) */}
+      <AudioDebugger />
       
       {/* Confetti Effect */}
       <ConfettiTrigger />

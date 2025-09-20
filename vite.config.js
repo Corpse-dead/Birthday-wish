@@ -24,6 +24,7 @@ export default defineConfig(({ command, mode }) => {
     },
     server: {
       port: 3000,
+      host: true, // Enable access from mobile devices on the same network
       open: true
     }
   }
