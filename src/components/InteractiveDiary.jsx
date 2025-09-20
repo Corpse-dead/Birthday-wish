@@ -66,7 +66,7 @@ const InteractiveDiary = () => {
     {
       date: "28 Dec 2024 - Maine Kaha 'I Love You'",
       message: "Main pehle bola 'I love you'... aur tera reaction dekh kar laga jaise dil mein fireworks ho rahe hon. 🥺",
-      emoji: "�"
+      emoji: "💖"
     },
     {
       date: "1 Jan 2025 - First Date + Tera 'I Love You'",
@@ -81,7 +81,7 @@ const InteractiveDiary = () => {
     {
       date: "18 Jan 2025 - First Cheek Kiss",
       message: "Bangla Sahib ke paas, tere soft lips ka touch meri cheek pe... Tanni, tu toh meri jaan chura le gayi thi. 😭💖",
-      emoji: "�"
+      emoji: "😚"
     },
     {
       date: "21 Jan 2025 - Real Kiss",
@@ -100,8 +100,8 @@ const InteractiveDiary = () => {
     },
     {
       date: "8 Feb 2025 - 3rd Kiss at Ice Cream",
-      message: "Ice cream thi thandi, par tera kiss tha hottest surprise. Tu always unexpected hoti hai... and I love that. �💋",
-      emoji: "�"
+      message: "Ice cream thi thandi, par tera kiss tha hottest surprise. Tu always unexpected hoti hai... and I love that. 🍦💋",
+      emoji: "🍦"
     },
     {
       date: "11 Feb 2025 - Baby Boli Tu Pehli Baar",
@@ -121,7 +121,7 @@ const InteractiveDiary = () => {
     {
       date: "18 Feb 2025 - 5th Kiss + Letters & Gifts",
       message: "Tere haathon se mile gifts aur handwritten letters... priceless. Har word mein tera pyaar, har line mein teri yaadein. 🥺❤️",
-      emoji: "�"
+      emoji: "💌"
     }
   ]
 

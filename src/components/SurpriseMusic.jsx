@@ -39,7 +39,7 @@ const SurpriseMusic = () => {
       {/* Hidden audio element */}
       <audio
         ref={audioRef}
-        preload="auto"
+        preload="metadata"
         playsInline
         style={{ display: 'none' }}
         onPlay={() => setIsPlaying(true)}
@@ -47,6 +47,7 @@ const SurpriseMusic = () => {
         onEnded={() => setIsPlaying(false)}
       >
         <source src="/janam-janam.mp3" type="audio/mpeg" />
+        <source src="./janam-janam.mp3" type="audio/mpeg" />
         Your browser does not support the audio element.
       </audio>
 
